@@ -27,9 +27,9 @@ Day 1 is the actual public release date, not a promise of automatic posting. Thi
 Optional maintainer commands, not automated collection:
 
 ```sh
-gh api repos/B-TQ/judgment-os/traffic/views
-gh api repos/B-TQ/judgment-os/traffic/clones
-gh api repos/B-TQ/judgment-os/releases/tags/v0.7
+gh api repos/The-Bluebu/judgment-os/traffic/views
+gh api repos/The-Bluebu/judgment-os/traffic/clones
+gh api repos/The-Bluebu/judgment-os/releases/tags/v0.7
 ```
 
 Keep traffic snapshots private; publish only useful aggregates. No analytics SDK, telemetry, personal contact list or tracking pixel is added. There are no numeric growth promises and no current user/installation statistics to claim.

@@ -11,9 +11,9 @@
 
 *AI 装了更多 Skill，里面的默认做法还适合眼前的任务吗？*
 
-[![离线检查](https://github.com/B-TQ/judgment-os/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/B-TQ/judgment-os/actions/workflows/ci.yml) [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-466bdf)](docs/README.md#compatibility) [![MIT 许可](https://img.shields.io/badge/License-MIT-667085)](LICENSE)
+[![离线检查](https://github.com/The-Bluebu/judgment-os/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/The-Bluebu/judgment-os/actions/workflows/ci.yml) [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-466bdf)](docs/README.md#compatibility) [![MIT 许可](https://img.shields.io/badge/License-MIT-667085)](LICENSE)
 
-**[从这里开始](#选择你的入口)** · [English](README.md) · [下载 v0.7](https://github.com/B-TQ/judgment-os/releases/tag/v0.7) · [文档导航](docs/README.md) · [参与讨论](https://github.com/B-TQ/judgment-os/discussions)
+**[从这里开始](#选择你的入口)** · [English](README.md) · [下载 v0.7](https://github.com/The-Bluebu/judgment-os/releases/tag/v0.7) · [文档导航](docs/README.md) · [参与讨论](https://github.com/The-Bluebu/judgment-os/discussions)
 
 Judgment Preserver 提醒 Agent 在硬性要求内，适配真正可选的默认做法；评测工具则帮助比较这段指导实际改变了什么。两者仍处于实验阶段，完整 Skill 尚未证明普遍优于一句提醒。
 
@@ -37,10 +37,10 @@ Judgment Preserver 提醒 Agent 在硬性要求内，适配真正可选的默认
 
 ## 选择你的入口
 
-下载并解压 [v0.7](https://github.com/B-TQ/judgment-os/releases/tag/v0.7)，或克隆当前源码及最新文档：
+下载并解压 [v0.7](https://github.com/The-Bluebu/judgment-os/releases/tag/v0.7)，或克隆当前源码及最新文档：
 
 ```powershell
-git clone https://github.com/B-TQ/judgment-os.git
+git clone https://github.com/The-Bluebu/judgment-os.git
 cd judgment-os
 ```
 
@@ -125,7 +125,7 @@ python judgment.py check --case Q01 --answer examples/quickstart/incorrect.json
 
 ## 文档与参与贡献
 
-[按目标找文档](docs/README.md) · [贡献指南 EN／中文](CONTRIBUTING.md) · [Bug 或兼容性反馈](https://github.com/B-TQ/judgment-os/issues/new/choose) · [提问](https://github.com/B-TQ/judgment-os/discussions/categories/q-a) · [私密漏洞报告](SECURITY.md)
+[按目标找文档](docs/README.md) · [贡献指南 EN／中文](CONTRIBUTING.md) · [Bug 或兼容性反馈](https://github.com/The-Bluebu/judgment-os/issues/new/choose) · [提问](https://github.com/The-Bluebu/judgment-os/discussions/categories/q-a) · [私密漏洞报告](SECURITY.md)
 
 欢迎虚构数据构成的最小复现、反例、双语说明改进和有依据的兼容报告。[路线图](docs/ROADMAP.md) · [待选社区文案](docs/launch/COMMUNITY_POSTS.md) · [版本历史](CHANGELOG.md) · [MIT](LICENSE)
 
@@ -142,3 +142,5 @@ python judgment.py check --case Q01 --answer examples/quickstart/incorrect.json
 **安装提示“已经存在”怎么办？** 不要覆盖文件或伪造回执。先检查已有 Skill，想做可撤回试用时可选另一个空项目。
 
 **有没有类似工具？** 有：[SkillsBench](https://github.com/benchflow-ai/skillsbench) 和 [Skill Eval Harness](https://github.com/adewale/skill-eval-harness)。本项目不声称机制独有或效果更优。[相关工作](docs/launch/POSITIONING.md)。
+
+由 [Bluebu](https://github.com/The-Bluebu) 维护。

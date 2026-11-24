@@ -10,11 +10,11 @@ Two entry points; read only the guide you need. / 两个入口，按当前目标
 | Try the offline toolkit / 体验离线工具 | [Quickstart EN](QUICKSTART.md) · [中文](QUICKSTART.zh-CN.md) | [CLI](CLI.md) |
 | Compare my own guidance / 比较自己的指导 | [Study workflow EN](QUICKSTART.md#prepare-your-own-study) · [中文](QUICKSTART.zh-CN.md#建立自己的实验) | [Review procedure](PAIRED_REVIEW.md) |
 | Judge the claims / 判断效果声明 | [Evidence EN](launch/EVIDENCE.md) · [中文结果](FOLLOWUP_V06_RESULTS.md) | [Protocol and amendment](STUDY_PROTOCOL_V06.md) |
-| Report or contribute / 反馈或贡献 | [Contributing EN／中文](../CONTRIBUTING.md) | [Issue forms](https://github.com/B-TQ/judgment-os/issues/new/choose) · [Q&A](https://github.com/B-TQ/judgment-os/discussions/categories/q-a) |
+| Report or contribute / 反馈或贡献 | [Contributing EN／中文](../CONTRIBUTING.md) | [Issue forms](https://github.com/The-Bluebu/judgment-os/issues/new/choose) · [Q&A](https://github.com/The-Bluebu/judgment-os/discussions/categories/q-a) |
 
 ## Compatibility
 
-Python 3.11+ with a standard-library runtime. Windows/Linux and Python 3.11/3.14 are exercised by [offline CI](https://github.com/B-TQ/judgment-os/actions/workflows/ci.yml). Git is needed for native staging. Codex CLI is needed only for its live adapter, not for offline use. Claude Code and other hosts do not have verified native integration in v0.7.
+Python 3.11+ with a standard-library runtime. Windows/Linux and Python 3.11/3.14 are exercised by [offline CI](https://github.com/The-Bluebu/judgment-os/actions/workflows/ci.yml). Git is needed for native staging. Codex CLI is needed only for its live adapter, not for offline use. Claude Code and other hosts do not have verified native integration in v0.7.
 
 运行时仅标准库；离线无需密钥。原生文件部署需 Git，Codex 实时适配器需额外 CLI、明确授权与参数。其他宿主的原生集成未验证，不把便携文件当成兼容承诺。
 
@@ -28,7 +28,7 @@ Python 3.11+ with a standard-library runtime. Windows/Linux and Python 3.11/3.14
 
 ## History and version boundaries / 历史与版本边界
 
-The [v0.7 Release](https://github.com/B-TQ/judgment-os/releases/tag/v0.7) and its source assets remain the original published snapshot. Current main may contain later documentation/visual maintenance without a new feature version. VERSION stays 0.7; the optional core text stays v0.2.
+The [v0.7 Release](https://github.com/The-Bluebu/judgment-os/releases/tag/v0.7) and its source assets remain the original published snapshot. Current main may contain later documentation/visual maintenance without a new feature version. VERSION stays 0.7; the optional core text stays v0.2.
 
 v0.7 的 tag 和源码附件保持原发布快照；main 的展示文档可以继续改善。文档维护不是 v0.8，也不代表新增模型效果。
 

@@ -1,6 +1,6 @@
 # GitHub 展示优化报告
 
-日期：2026-10-27。仓库：https://github.com/B-TQ/judgment-os 。
+日期：2026-10-27。仓库：https://github.com/The-Bluebu/judgment-os 。
 
 本次为 v0.7 的首页、文档及视觉维护，不是 v0.8。核心逻辑、Skill 正文、模型调用、安全授权规则、实验协议、历史结果、许可证及 v0.7 tag 均保留。
 
@@ -54,9 +54,9 @@
 
 基线提交：`104727ccc19069dff3cf43989cf4fd7c5a613db6`。
 
-优化主体提交：[`44db4fccbde571e976822b400e23433d4e4e574d`](https://github.com/B-TQ/judgment-os/commit/44db4fccbde571e976822b400e23433d4e4e574d)。已成功推送到 main。
+优化主体提交：[`44db4fccbde571e976822b400e23433d4e4e574d`](https://github.com/The-Bluebu/judgment-os/commit/44db4fccbde571e976822b400e23433d4e4e574d)。已成功推送到 main。
 
-主体提交的 [远端 CI](https://github.com/B-TQ/judgment-os/actions/runs/40529133669) 已成功：Windows／Ubuntu × Python 3.11／3.14 四组全部完成并通过。本报告随后补记验证；后续报告提交的状态见 [最新工作流](https://github.com/B-TQ/judgment-os/actions/workflows/ci.yml)。
+主体提交的 [远端 CI](https://github.com/The-Bluebu/judgment-os/actions/runs/40529133669) 已成功：Windows／Ubuntu × Python 3.11／3.14 四组全部完成并通过。本报告随后补记验证；后续报告提交的状态见 [最新工作流](https://github.com/The-Bluebu/judgment-os/actions/workflows/ci.yml)。
 
 远端中英 README 与本地字节一致，GitHub 渲染 HTML 保留 picture/source；共核对 43 份首页／导航／SVG／PNG 的远端 blob 与本地一致，抽查 Hero 与手机概念图公开 URL 均返回 HTTP 200。仓库 Description／七个 Topics 已核对。Release 新说明已实际生效，四份原附件的哈希均保持不变。
 
@@ -66,7 +66,7 @@ v0.7 原 tag 仍指向上述基线，原源码 ZIP 的 SHA-256 保持 `71e550b61
 
 **Social Preview 尚未设置成功。** 重新检查显示 usesCustomOpenGraphImage=false；浏览器页面连接不可用，因此未上传，也不声称已上传。
 
-最短步骤：[仓库 Settings](https://github.com/B-TQ/judgment-os/settings) → General → Social preview → Upload → 选择 [social-preview.png](docs/launch/assets/social-preview.png)。这是已验证尺寸为 1280×640 的最终图；[中文封面](docs/launch/assets/social-preview.zh-CN.png)也已保留。
+最短步骤：[仓库 Settings](https://github.com/The-Bluebu/judgment-os/settings) → General → Social preview → Upload → 选择 [social-preview.png](docs/launch/assets/social-preview.png)。这是已验证尺寸为 1280×640 的最终图；[中文封面](docs/launch/assets/social-preview.zh-CN.png)也已保留。
 
 社区内容仍由用户选择渠道并手动发布；本次没有外发或定时推广。完整 Skill 尚未证明普遍优于一句提醒，历史 1 胜 7 平及唯一胜出差一词的结论保留。没有新增人工效用或跨模型研究。
 
