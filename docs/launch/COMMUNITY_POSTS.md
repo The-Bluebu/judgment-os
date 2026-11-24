@@ -4,7 +4,7 @@ Maintainer drafts, not posted. Check each community's current rules before posti
 
 维护者草稿，未发布。发帖前阅读各社区当日规则，按问题相关性选渠道，不集中刷屏。没有虚构用户、反馈或投票。
 
-Project: https://github.com/B-TQ/judgment-os
+Project: https://github.com/The-Bluebu/judgment-os
 
 ## Recommended first posts after presentation maintenance / 展示优化后优先选用
 
@@ -16,7 +16,7 @@ Your agent needs a short incident notice. Its Skill suggests a full postmortem. 
 
 Judgment OS pairs optional task-fit guidance with offline evaluation. The full Skill is still experimental.
 
-https://github.com/B-TQ/judgment-os
+https://github.com/The-Bluebu/judgment-os
 
 Attach `assets/skill-fit.png`, retaining its “concept illustration” label. For technical follow-up, explain the recorded C–D 1 win / 7 ties and the one-word-overrun win. Do not imply the pictured notice was measured.
 
@@ -26,7 +26,7 @@ Attach `assets/skill-fit.png`, retaining its “concept illustration” label. F
 
 I maintain Judgment OS, an optional prompt-level Skill plus a small offline Python evaluation toolkit. The motivating question is concrete: if a user needs a short phone notice and a domain Skill suggests a full report, which parts are optional and which requirements stay binding? Our README illustration is conceptual, not a model result.
 
-The actual toolkit freezes the same requirements across task-only, domain guidance, full core and one-sentence reminder, then keeps genuine outputs, failed gates and review phases separate. The recorded eight-case follow-up did not justify making the full core a default: 1 win and 7 ties against the reminder, with the win due to one word over budget. The offline walkthrough needs Python 3.11+ and no API key. I'd value a fictional counterexample or a report on the two entry points: https://github.com/B-TQ/judgment-os .
+The actual toolkit freezes the same requirements across task-only, domain guidance, full core and one-sentence reminder, then keeps genuine outputs, failed gates and review phases separate. The recorded eight-case follow-up did not justify making the full core a default: 1 win and 7 ties against the reminder, with the win due to one word over budget. The offline walkthrough needs Python 3.11+ and no API key. I'd value a fictional counterexample or a report on the two entry points: https://github.com/The-Bluebu/judgment-os .
 
 ### V2EX
 
@@ -36,7 +36,7 @@ Skill 里的一套流程大多时候可能有用，但“专业建议”不一�
 
 我维护的 Judgment OS 有两个入口：可选元 Skill 提醒在硬要求内考虑适配；离线工具负责固定四组、检查回答、分开评审。原有八题研究没有证明完整核心普遍优于一句提醒：1 胜 7 平，唯一胜出来自对方超限一个词，所以没有设成默认。
 
-最近只整理了中英首页、概念图、安装与评测入口，没有升级核心或包装新成绩。Python 3.11+，不需要密钥就能看离线工具演示。项目：https://github.com/B-TQ/judgment-os 。我是维护者，欢迎用虚构输入讲一个具体反例；别贴私密日志。发帖前选适合节点并核对自荐规则。
+最近只整理了中英首页、概念图、安装与评测入口，没有升级核心或包装新成绩。Python 3.11+，不需要密钥就能看离线工具演示。项目：https://github.com/The-Bluebu/judgment-os 。我是维护者，欢迎用虚构输入讲一个具体反例；别贴私密日志。发帖前选适合节点并核对自荐规则。
 
 ### 掘金
 
@@ -46,7 +46,7 @@ Skill 里的一套流程大多时候可能有用，但“专业建议”不一�
 
 Judgment OS 把“指导意图”和“效果检验”分成两个入口：想试元 Skill，可预览、项目内安装并安全撤回；想验证指导，固定 A 原始任务、B 领域 Skill、C 完整核心、D 一句提醒，保留失败、匿名评审和轮次差异。
 
-离线先跑 `python judgment.py doctor` 和 `python judgment.py demo --out runs/article-demo`，无需 API key。安装 Python 3.11+，从 https://github.com/B-TQ/judgment-os 下载源码并进入根目录即可。
+离线先跑 `python judgment.py doctor` 和 `python judgment.py demo --out runs/article-demo`，无需 API key。安装 Python 3.11+，从 https://github.com/The-Bluebu/judgment-os 下载源码并进入根目录即可。
 
 现有八题中 C–D 为 1 胜 7 平，唯一胜出是字数门槛差一词；不能因此宣称推理增强。完整核心继续可选，独立人工效用与跨模型复验仍未完成。正文建议依次讲可选与强制的边界、两条入口、实际检查及负面结果，配 `assets/skill-fit.zh-CN.png` 和已有架构图。披露维护者身份，不写成第三方评测。
 
@@ -58,7 +58,7 @@ Skill 装多了，有时会碰到一种别扭：可选模板被套到每个任�
 
 我做的 Judgment OS 提供两个入口：试一个可撤回的元 Skill，或用离线工具比较指导。图里的短通知只是概念，不是真实前后效果。真正已有的八题结果是：完整核心对一句提醒 1 胜 7 平，唯一胜出还是对方多写了一个词。因此它没有被设成默认。
 
-最近更新的是中英首页和上手导航，版本仍是 v0.7。Python 3.11+，不用密钥可看离线演示。项目：GitHub 的 B-TQ/judgment-os。我是维护者，更想听到一个具体反例，公共评论请用虚构数据。
+最近更新的是中英首页和上手导航，版本仍是 v0.7。Python 3.11+，不用密钥可看离线演示。项目：GitHub 的 The-Bluebu/judgment-os。我是维护者，更想听到一个具体反例，公共评论请用虚构数据。
 
 配图顺序：`hero.zh-CN-mobile.png` 作封面 → `skill-fit.zh-CN-mobile.png` 保留“概念演示”标签 → 原架构图。不要贴“智能恢复”“前后暴涨”等标签，不索要集中刷 Star。
 
@@ -72,7 +72,7 @@ Your agent got more Skills. Does every default still fit the task?
 
 Judgment OS v0.7 compares guidance and keeps failures visible. Offline demo, no API key. The full meta-Skill hasn't shown a general edge over one sentence.
 
-https://github.com/B-TQ/judgment-os
+https://github.com/The-Bluebu/judgment-os
 
 ### Technical thread
 
@@ -88,7 +88,7 @@ https://github.com/B-TQ/judgment-os
 
 6/ v0.7 has a zero-model-call tutorial and guarded project-local Skill installation. Raw private studies aren't published, so the source alone can't recompute every historical judgment. I'd welcome a minimal counterexample or installation report.
 
-https://github.com/B-TQ/judgment-os
+https://github.com/The-Bluebu/judgment-os
 
 ### Demo-led post
 
@@ -97,7 +97,7 @@ Three orders: 4 paid, 7 paid, 9 cancelled.
 Judgment OS rejects the fixture that counts the cancelled order and accepts {"total":11,"count":2}. These are authored software fixtures, not a model before/after claim.
 
 Try the offline checker; no API key:
-https://github.com/B-TQ/judgment-os
+https://github.com/The-Bluebu/judgment-os
 
 Image: assets/demo.png. Attach only this clearly labeled fixture demo; do not caption it as proof of Skill efficacy.
 
@@ -115,7 +115,7 @@ I built a small Python toolkit to test whether extra Skill guidance helps a part
 
 The offline tutorial needs Python 3.11+ and no API key. It creates empty study slots and checks labeled software fixtures; it doesn't fabricate model answers. Our recorded eight-case follow-up did not justify making the full Skill a default: 1 win and 7 ties against the reminder, with the win caused by a one-word overrun. I'm interested in useful counterexamples and whether the local workflow is worth the setup.
 
-https://github.com/B-TQ/judgment-os
+https://github.com/The-Bluebu/judgment-os
 
 ### Author's first comment (publish only as the real author)
 
@@ -148,7 +148,7 @@ I've been working on an offline Python toolkit, Judgment OS, for small controlle
 
 The interesting result so far is limited: in eight authored tasks, the full core beat the short reminder once and tied seven times. The only win was a one-word budget violation. That did not meet the adoption rule, so it remains optional.
 
-If project posts are allowed here, the source is https://github.com/B-TQ/judgment-os . I'm the maintainer. I'd be interested in how you define task-fit improvements that matter after correctness gates, especially when coarse model scores saturate. Please share fictional minimal cases, not private traces.
+If project posts are allowed here, the source is https://github.com/The-Bluebu/judgment-os . I'm the maintainer. I'd be interested in how you define task-fit improvements that matter after correctness gates, especially when coarse model scores saturate. Please share fictional minimal cases, not private traces.
 
 ### For a local tooling / Python community
 
@@ -156,7 +156,7 @@ If project posts are allowed here, the source is https://github.com/B-TQ/judgmen
 
 I maintain Judgment OS, a small source-checkout CLI. The part most relevant here is local evaluation plumbing: deterministic JSON/CSV/text checks, frozen input hashes, explicit failure states and hash-bound reviewer imports. No account or pip package is needed for its offline demo.
 
-The optional experimental Skill isn't required to use the checks. I'd value feedback on the fresh-directory workflow and guarded install/removal behavior. Code and reproduction steps: https://github.com/B-TQ/judgment-os . I haven't verified native Claude Code integration and don't claim it.
+The optional experimental Skill isn't required to use the checks. I'd value feedback on the fresh-directory workflow and guarded install/removal behavior. Code and reproduction steps: https://github.com/The-Bluebu/judgment-os . I haven't verified native Claude Code integration and don't claim it.
 
 ### Submission discipline / 发布纪律
 
@@ -174,7 +174,7 @@ Read the target community's current self-promotion rules and use its designated 
 
 已有八题实验其实没给完整核心带来很强的支持：对一句提醒 1 胜 7 平，唯一胜出还是对方多写了一个词。默认采用门槛没达到，完整 Skill 继续可选。初始评审接触了其他会话摘要的问题和后续修正也都写进去了。
 
-项目：https://github.com/B-TQ/judgment-os
+项目：https://github.com/The-Bluebu/judgment-os
 
 我是维护者。更想收集的是具体反例：哪个“可选默认”不适合你的任务，以及什么结果才算改善。公共反馈请换成虚构数据，别贴私密日志。发帖前确认适用节点和自荐规则。
 
@@ -194,7 +194,7 @@ python judgment.py demo --out runs/juejin-demo
 python judgment.py check --case Q01 --answer examples/quickstart/correct.json
 ```
 
-先从 https://github.com/B-TQ/judgment-os 下载源码并进入根目录。Python 3.11+，无需密钥。demo 只生成空槽位并检查人工示例；真实调用默认关闭。
+先从 https://github.com/The-Bluebu/judgment-os 下载源码并进入根目录。Python 3.11+，无需密钥。demo 只生成空槽位并检查人工示例；真实调用默认关闭。
 
 已有八题实验中，完整核心对一句提醒为 1 胜 7 平，唯一胜出来自字数门槛。项目没有因此把完整核心设为默认。代码是 MIT，欢迎补最小复现、安装体验与失败案例。后续需要独立人工评价和跨模型研究，目前没有这些成绩。
 
@@ -210,7 +210,7 @@ python judgment.py check --case Q01 --answer examples/quickstart/correct.json
 
 目前最值得公开的恰好是有限结果：八题里完整核心对一句提醒 1 胜 7 平，唯一胜出源于对方超出字数上限一个词。这个差别必须按规则记为失败，但不能包装成推理能力提升。评审也都是模型，初始隔离不足与修正轮分别披露。
 
-如果你也遇到过模板套用，可以先明确用户目标、必须遵守的要求和真正可选的部分，再尝试一句简短提醒，并用事先确定的标准比较。项目和离线体验：https://github.com/B-TQ/judgment-os 。我是维护者，欢迎反例；独立人工效用尚未验证。
+如果你也遇到过模板套用，可以先明确用户目标、必须遵守的要求和真正可选的部分，再尝试一句简短提醒，并用事先确定的标准比较。项目和离线体验：https://github.com/The-Bluebu/judgment-os 。我是维护者，欢迎反例；独立人工效用尚未验证。
 
 ### 小红书技术向：短文与图卡
 
@@ -226,7 +226,7 @@ python judgment.py check --case Q01 --answer examples/quickstart/correct.json
 
 更想收集一个具体问题：你在哪类任务里遇到过“可选模板被当成必须”？用虚构例子就好，别发客户信息或私密日志。
 
-项目名：Judgment OS；GitHub：B-TQ/judgment-os。我是维护者。话题可选：#AI工具 #开源项目 #Agent #提示词；根据当日平台规则控制标签，不承诺流量。
+项目名：Judgment OS；GitHub：The-Bluebu/judgment-os。我是维护者。话题可选：#AI工具 #开源项目 #Agent #提示词；根据当日平台规则控制标签，不承诺流量。
 
 图卡顺序：assets/social-preview.zh-CN.png → assets/demo.zh-CN.png → assets/architecture.zh-CN.png。无需夸张“前后提升”标签。
 

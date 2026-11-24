@@ -11,9 +11,9 @@
 
 *Your AI got more Skills. Does every default still fit the task?*
 
-[![Offline checks](https://github.com/B-TQ/judgment-os/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/B-TQ/judgment-os/actions/workflows/ci.yml) [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-466bdf)](docs/README.md#compatibility) [![MIT license](https://img.shields.io/badge/License-MIT-667085)](LICENSE)
+[![Offline checks](https://github.com/The-Bluebu/judgment-os/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/The-Bluebu/judgment-os/actions/workflows/ci.yml) [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-466bdf)](docs/README.md#compatibility) [![MIT license](https://img.shields.io/badge/License-MIT-667085)](LICENSE)
 
-**[Start here](#choose-your-entry-point)** · [中文](README.zh-CN.md) · [Download v0.7](https://github.com/B-TQ/judgment-os/releases/tag/v0.7) · [Documentation](docs/README.md) · [Discuss](https://github.com/B-TQ/judgment-os/discussions)
+**[Start here](#choose-your-entry-point)** · [中文](README.zh-CN.md) · [Download v0.7](https://github.com/The-Bluebu/judgment-os/releases/tag/v0.7) · [Documentation](docs/README.md) · [Discuss](https://github.com/The-Bluebu/judgment-os/discussions)
 
 Judgment Preserver asks an agent to adapt genuinely optional defaults while keeping binding requirements. The toolkit lets you compare what that guidance changes. Both are experimental; the full Skill has not established a general advantage over a one-sentence reminder.
 
@@ -37,10 +37,10 @@ The Skill offers natural-language guidance, not a policy engine. This illustrati
 
 ## Choose your entry point
 
-Download and extract [v0.7](https://github.com/B-TQ/judgment-os/releases/tag/v0.7), or clone the current documentation and source:
+Download and extract [v0.7](https://github.com/The-Bluebu/judgment-os/releases/tag/v0.7), or clone the current documentation and source:
 
 ```sh
-git clone https://github.com/B-TQ/judgment-os.git
+git clone https://github.com/The-Bluebu/judgment-os.git
 cd judgment-os
 ```
 
@@ -125,7 +125,7 @@ Live collection requires Codex CLI, Git, an explicit model, live/cost flags and 
 
 ## Documentation and contribution
 
-[Find the right guide](docs/README.md) · [Contribute EN / 中文](CONTRIBUTING.md) · [Report a bug or compatibility result](https://github.com/B-TQ/judgment-os/issues/new/choose) · [Ask a question](https://github.com/B-TQ/judgment-os/discussions/categories/q-a) · [Report a vulnerability privately](SECURITY.md)
+[Find the right guide](docs/README.md) · [Contribute EN / 中文](CONTRIBUTING.md) · [Report a bug or compatibility result](https://github.com/The-Bluebu/judgment-os/issues/new/choose) · [Ask a question](https://github.com/The-Bluebu/judgment-os/discussions/categories/q-a) · [Report a vulnerability privately](SECURITY.md)
 
 Useful contributions include a fictional minimal repro, a counterexample, clearer bilingual instructions or a verified compatibility report. [Roadmap](docs/ROADMAP.md) · [Manual community drafts](docs/launch/COMMUNITY_POSTS.md) · [Changelog](CHANGELOG.md) · [MIT](LICENSE)
 
@@ -142,3 +142,5 @@ Useful contributions include a fictional minimal repro, a counterexample, cleare
 **What if installation says “already exists”?** Do not overwrite the target or fabricate a receipt. Inspect its existing Skill and choose another project for a disposable trial.
 
 **Are similar tools available?** Yes: [SkillsBench](https://github.com/benchflow-ai/skillsbench) and [Skill Eval Harness](https://github.com/adewale/skill-eval-harness). We do not claim unique evaluation mechanics or superiority. [Context](docs/launch/POSITIONING.md).
+
+Maintained by [Bluebu](https://github.com/The-Bluebu).

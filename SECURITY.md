@@ -6,7 +6,7 @@ Only the latest published 0.x release receives fixes. This is a pre-1.0 local re
 
 ## Reporting
 
-Private vulnerability reporting is enabled for the launch repository: [report privately](https://github.com/B-TQ/judgment-os/security/advisories/new). Forks and other deployments may differ.
+Private vulnerability reporting is enabled for the launch repository: [report privately](https://github.com/The-Bluebu/judgment-os/security/advisories/new). Forks and other deployments may differ.
 
 Do not post credentials, private answers, personal data or exploitable details in a public issue. Use GitHub's private vulnerability reporting if the repository has enabled it. Otherwise contact the maintainer through a private profile contact option, or open a minimal issue requesting a reporting channel without sensitive details. No dedicated security team, response SLA or currently enabled private-reporting feature is implied.
 
@@ -20,7 +20,7 @@ Skill installation is project-local and refuses existing installations, links/re
 
 ## 中文安全与隐私说明
 
-发布仓库已启用[私密漏洞报告](https://github.com/B-TQ/judgment-os/security/advisories/new)，请勿把敏感细节发到公开 Issue；fork 的设置可能不同。
+发布仓库已启用[私密漏洞报告](https://github.com/The-Bluebu/judgment-os/security/advisories/new)，请勿把敏感细节发到公开 Issue；fork 的设置可能不同。
 
 仅最新公开的 0.x 版本接受修复，升级前保留原始实验。不要在公开 Issue 粘贴密钥、真实回答、个人信息或漏洞利用细节。私密报告使用仓库 Security 页实际可用的私密漏洞通道；如不可用，只开不含敏感细节的渠道请求。
 

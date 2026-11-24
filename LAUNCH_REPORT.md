@@ -2,10 +2,10 @@
 
 Date / 日期: 2026-10-27 (Asia/Shanghai).
 
-- Repository / 仓库: https://github.com/B-TQ/judgment-os
-- Release / 版本: https://github.com/B-TQ/judgment-os/releases/tag/v0.7
-- Verified engineering run / 已验证工程 CI: https://github.com/B-TQ/judgment-os/actions/runs/40517468018
-- Latest/tag checks / 最新与标签检查: https://github.com/B-TQ/judgment-os/actions/workflows/ci.yml
+- Repository / 仓库: https://github.com/The-Bluebu/judgment-os
+- Release / 版本: https://github.com/The-Bluebu/judgment-os/releases/tag/v0.7
+- Verified engineering run / 已验证工程 CI: https://github.com/The-Bluebu/judgment-os/actions/runs/40517468018
+- Latest/tag checks / 最新与标签检查: https://github.com/The-Bluebu/judgment-os/actions/workflows/ci.yml
 
 ## Delivered / 交付内容
 
